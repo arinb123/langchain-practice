@@ -4,7 +4,6 @@ from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 from dotenv import load_dotenv
 import os
-import refinitiv.data as rd
 from typing import Dict, Any
 import refinitiv.dataplatform as rdp
 
